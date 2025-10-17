@@ -35,13 +35,11 @@ function r(users, s) {
 ## exemple d'appel : 
 
 ```js
-p([
-  { p: 50, c: "tech" },
-  { p: 120, c: "clothes" },
-  { p: 300, c: "tech" },
-  { p: 90, c: "home" },
-  { p: 500, c: "tech" },
-], 100);
+r([
+{ n: "alice", s: [10,20,5,40] },
+{ n: "bob", s: [5,5,5,5] },
+{ n: charlie", s: [ 50,10,30] },
+], 10
 ```
 
 ## ce que fais le code : 
